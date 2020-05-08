@@ -263,9 +263,6 @@ private struct CardFront: View {
                 }
                 
             }
-//            Image(systemName: "suit.\(self.suit.rawValue).fill")
-//                .foregroundColor(suitColor())
-//                .font(.system(.largeTitle, design: .serif))
             CardDesign(rawValue: value)?.of(suit: self.suit)
         }
     }
