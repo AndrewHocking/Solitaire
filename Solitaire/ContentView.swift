@@ -91,8 +91,6 @@ struct ContentView: View {
                 }
                 .padding()
                 VStack {
-                    Spacer()
-                        .frame(height: 80)
                     HStack {
                         ZStack {
                             Spacer()
@@ -141,7 +139,7 @@ struct ContentView: View {
                         }
                         .overlay(
                             GeometryReader { geo in
-                                Color.red.opacity(0.5)
+                                Color.clear//.red.opacity(0.5)
                                     .onAppear {
                                         self.foundationFrames[0] = geo.frame(in: .global)
                                     }
@@ -157,7 +155,7 @@ struct ContentView: View {
                         }
                         .overlay(
                             GeometryReader { geo in
-                                Color.red.opacity(0.5)
+                                Color.clear//.red.opacity(0.5)
                                     .onAppear {
                                         self.foundationFrames[1] = geo.frame(in: .global)
                                     }
@@ -173,7 +171,7 @@ struct ContentView: View {
                         }
                         .overlay(
                             GeometryReader { geo in
-                                Color.red.opacity(0.5)
+                                Color.clear//.red.opacity(0.5)
                                     .onAppear {
                                         self.foundationFrames[2] = geo.frame(in: .global)
                                     }
@@ -189,7 +187,7 @@ struct ContentView: View {
                         }
                         .overlay(
                             GeometryReader { geo in
-                                Color.red.opacity(0.5)
+                                Color.clear//.red.opacity(0.5)
                                     .onAppear {
                                         self.foundationFrames[3] = geo.frame(in: .global)
                                     }
