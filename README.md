@@ -5,6 +5,6 @@ A SwiftUI Catalyst Solitaire app
 
 ***This is a work in progress***
 
-Hello Shopify hiring manager! 👋
+This is the second SwiftUI app I have made without the aid of a tutorial. Ideally it will eventually be one app to rule them all on iOS, iPadOS, and macOS. One interesting thing to note about this is that I have used no image files in this app. Every graphical element has been made using SwiftUI and the SF Symbols library! Creating all the card faces took a *long* time, but it was really satisfying when it was done!
 
-This app is very unfinished, but I believe it better shows my abilities than other personal projects I have done. I know you said to submit an iOS app, but this is an iOS/iPadOS/macOS Catalyst app that, at the moment, runs best on macOS, but will eventually be properly supported on all these OSes. If you would like to check out a purely iOS-only app I have made, I would recommend checking out my [Metrognome](https://github.com/AndrewHocking/Metrognome) app, but it is much more basic and bare-bones. It was the first SwiftUI app I made without the aid of a tutorial, and this Solitaire app is the second.
+This was my initial lockdown project when school was over and my workplace closed. I do hope to finish it up in the near future!
